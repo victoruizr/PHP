@@ -1,0 +1,16 @@
+#heading { color: #0388fc; } /*Formato para los títulos H1*/
+
+div { border: 2px dotted #0388fc; } /*Formato para los bordes de la etiqueta <div>*/
+
+form { margin-left: 1em; margin-bottom: 1em; }
+
+button, input, select, textarea { /*Formato para que los navegadores interpreten bien botones, select y area de texto*/
+    font-family : inherit;
+    font-size   : 100%;
+}
+
+form {
+    /** Para ver el borde del formulario */
+    padding: 1em;
+    border-radius: 1em;
+}
